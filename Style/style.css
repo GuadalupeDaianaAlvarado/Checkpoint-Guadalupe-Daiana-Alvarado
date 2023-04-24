@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .....HEADER.... */
+header{
+    min-height: 20vh;
+    background-image: url(../Image/head.jpg);
+    background-position: center;
+    object-fit: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+nav{
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+
+}
+nav a{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+   text-align: center;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    padding: 1rem;
+}
+h1{
+margin-right: 80rem;
+
+
+
+}
+#activo{
+    background-color: bisque;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+}
+
+
+
+/* .....HEADER.... */
+
+
+
+
+/* .....MAIN.... */
+main{
+    min-width: 80vh;
+    min-height: 74.5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: burlywood;
+}
+.list{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    border-radius: 1rem;
+}
+img {
+    width: 12rem;
+}
+#lista{
+    min-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    border-radius: 1rem;
+    background-color: bisque;
+
+    
+}
+#imglist{
+    width: 20rem;
+}
+.list2{
+    min-width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: bisque;
+    border-radius: 1rem;
+}
+.Carts{
+    min-width: 15vh;
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cart{
+    min-width: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color:white;
+    color: black;
+    margin: 0.5rem;
+    object-fit: contain;
+}
+h3{
+    display: flex;
+    color:black;
+}
+h5, h6{
+    color: white;
+}
+.form{
+    min-width: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+fieldset{
+    display: flex;
+    flex-direction: column;
+    min-width: 15rem;
+    border: 0;
+}
+table,tr,th,td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+/* .....MAIN.... */
+
+
+
+
+
+/* .....FOOTER.... */
+footer{
+    min-height: 1vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+
+}
+
+
+
+/* .....FOOTER.... */
+
+
+
+
+
+
+
